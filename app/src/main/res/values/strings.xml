@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">testebotao</string>
+    <string name="canal_alexandre_cabo">Canal Alexandre Cabo</string>
+    <string name="ac">AC</string>
 </resources>
