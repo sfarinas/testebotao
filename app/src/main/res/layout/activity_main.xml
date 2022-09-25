@@ -111,4 +111,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoJogar" />
 
+    <Button
+        android:id="@+id/botaoCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="26dp"
+        android:linksClickable="false"
+        android:onClick="linkCode"
+        android:text="code"
+        app:layout_constraintBottom_toTopOf="@+id/botaoAfc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/botaoAc" />
+
+    <TextView
+        android:id="@+id/textCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:autoLink="web"
+        android:text="code"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoCode" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

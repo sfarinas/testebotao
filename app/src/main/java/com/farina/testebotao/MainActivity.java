@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         //texto.setOnClickListener();
     }
 
+    public void linkCode(View view){
+        TextView codeLink = findViewById(R.id.textCode);
+        codeLink.setText("https://github.com/sfarinas/testebotao/tree/master");
+    }
+
     public void alterarTexto2(View view){
         TextView texto2 = findViewById(R.id.afcTextView2);
         texto2.setText("http://autofacilconsultoria.com");
@@ -34,5 +39,7 @@ public class MainActivity extends AppCompatActivity {
         int numero = new Random().nextInt(11);
         jogoTexto.setText("Numero selecionado é : " + numero);
     }
+
+
 
 }
